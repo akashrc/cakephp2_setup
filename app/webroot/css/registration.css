@@ -1,0 +1,56 @@
+body{
+    background-color: antiquewhite !important;
+    color: black !important;
+}
+.wrapper h2,.heading h2{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+.wrapper h2{
+        width: 97%;
+}
+.heading h2{
+    width:106%;
+}
+.wrapper{
+    width: 50%;
+    margin-left: 30%;
+}
+.wrapper fieldset legend{
+    font-weight: bold;
+    font-size: 110%;
+    color: black;
+}
+.wrapper select {
+    width: 100%;
+    padding: 8px;
+}
+button{
+    padding: 10;
+}
+
+.filter, .filter div{
+    clear: unset !important;
+    float: left;
+}
+.filter{
+    padding: 20px;
+    background-color: white;
+    width: 102%;
+    margin-top: 10px;
+}
+.middle select {
+    height: 35px !important;
+    float: left;
+    margin-right: 15px;
+}
+.filter input[type=submit] {
+    padding: 7px !important;
+    min-width: 100px;
+}
+/*.heading h2{
+    color:blue !important;
+}*/
